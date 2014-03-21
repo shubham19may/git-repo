@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edlogiq.neurongym"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edlogiq.neurongym.Splash_screen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edlogiq.neurongym.Login_screen_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="edlogiq.neurongym.Sign_up_form_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="edlogiq.neurongym.Game_type_options_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity
+            android:name="com.games.match_it.Match_it_Start_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.games.match_it.Match_it_Main_game"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="com.games.match_it.Match_it_Result_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="com.games.spot_it.Start_Activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.games.spot_it.Main_game"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+         </activity>
+         <activity
+            android:name="com.games.spot_it.Result_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+         </activity>
+         <activity
+            android:name="com.games.river_pass.Start_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.games.river_pass.Main_game"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+          <activity
+            android:name="com.games.river_pass.Result_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+    
+          <activity
+            android:name="com.games.dancing_fireflies.Start_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.games.dancing_fireflies.Main_game"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:hardwareAccelerated="false" >
+        </activity>
+        <activity
+            android:name="com.games.dancing_fireflies.Result_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.games.reversal.Start_Activity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.games.reversal.Main_game"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+         </activity>
+         <activity
+            android:name="com.games.reversal.Result_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+         </activity>
+          <activity
+            android:name="com.games.tracktheroute.Start_activity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.games.tracktheroute.Main_game"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+         </activity>
+         <activity
+            android:name="com.games.tracktheroute.Result_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+         </activity>
+         <activity
+            android:name="edlogiq.neurongym.Home_page_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="edlogiq.neurongym.training_page_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="edlogiq.neurongym.Brain_profile_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+             >
+         </activity>
+         <activity
+            android:name="edlogiq.neurongym.overall_brain_profile_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="edlogiq.neurongym.Overall_performance_history_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="edlogiq.neurongym.Today_performance_history_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="edlogiq.neurongym.Seven_performance_history_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="edlogiq.neurongym.Thirty_performance_history_activity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+         </activity>
+         <activity
+            android:name="com.example.blink.Home"
+            android:configChanges="screenSize"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.example.blink.GameActivity" 
+            android:configChanges="screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.blink.AnsScreen" 
+            android:configChanges="screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.blink.Blah" 
+            android:configChanges="screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.blink.Result" 
+            android:configChanges="screenSize"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.blink.PracticeConfigMain"
+                  android:screenOrientation="portrait"    >
+
+        </activity>
+        <activity android:name="com.example.blink.Instructions"
+                        android:configChanges="screenSize"
+                        android:screenOrientation="portrait"   
+        ></activity>
+        <activity android:name="org.achartengine.GraphicalActivity"   
+        ></activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.circlematch.Home"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.example.circlematch.GameActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.circlematch.Score" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.circlematch.Instructions" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.circlematch.Settings" android:screenOrientation="portrait"></activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name="com.example.matchmath.Home"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.example.matchmath.GameActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.matchmath.Score" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.matchmath.Instructions" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.example.matchmath.Settings" android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.example.alphaiq.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity android:name="com.example.alphaiq.second"
+            android:screenOrientation="portrait"
+              android:label="@string/app_name"
+            android:noHistory="true"
+            />
+        
+        <activity android:name="com.example.alphaiq.fourth"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            />
+        <activity android:screenOrientation="portrait" 
+            android:name="com.example.alphaiq.fifth"
+            />
+        
+    	<activity android:name="com.example.alphaiq.settings"
+    	    android:screenOrientation="portrait"
+    	    />
+    
+    	 <activity android:name="com.example.alphaiq.instn"
+    	     android:screenOrientation="portrait"
+    	     />
+    	 <activity
+            android:name="com.example.moneygame.MainActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        
+        <activity android:name="com.example.moneygame.second"
+            android:screenOrientation="landscape"/>
+        
+        <activity android:name="com.example.moneygame.settings"
+            android:screenOrientation="landscape"/>
+        
+        <activity android:name="com.example.moneygame.fifth"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name="com.intern.internapp.SplashScreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.intern.internapp.MenuScreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.intern.internapp.Results"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+</manifest>
